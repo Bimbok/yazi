@@ -1,0 +1,25 @@
+[opener]
+play = [
+	{ run = 'mpv "$@"', orphan = true, for = "unix" },
+	{ run = '"C:\Program Files\mpv.exe" %*', orphan = true, for = "windows" }
+]
+edit = [
+	{ run = 'nvim "$@"', block = true, for = "unix" },
+	{ run = "%EDITOR% %*",  block = true, for = "windows" },
+]
+open = [
+	{ run = 'xdg-open "$@"', desc = "Open" },
+]
+
+[mgr]
+linemode = "size_and_mtime"
+show_hidden = true
+mouse_events = ["click", "scroll", "touch", "move",]
+
+[preview]
+image_filter = "lanczos3"
+max_cache = "100M"
+
+tab_size = 2
+max_width = 1000
+max_height = 1000

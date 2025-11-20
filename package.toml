@@ -1,0 +1,39 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "8f1d971"
+hash = "4fccaaf10c36dc2466e2438a386ff017"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "8f1d971"
+hash = "63b6c222bf2103b3023389dde5e2ecfe"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "8f1d971"
+hash = "3996fc74044bc44144b323686f887e1"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:chmod"
+rev = "8f1d971"
+hash = "8ad3e90b079190b4905f24a44f4ca06b"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:zoom"
+rev = "8f1d971"
+hash = "9dee2bf990ea941ccf67df74bca45468"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:diff"
+rev = "8f1d971"
+hash = "82376c3381ae915fd799d40f4dd4c6cd"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:jump-to-char"
+rev = "8f1d971"
+hash = "ce67445ebb1bf3d97b8e44f50904b2c5"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:dracula"
+rev = "f6b425a"
+hash = "c5e49b9e877ca29a3622ec2e35af0b2a"
