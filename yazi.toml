@@ -13,13 +13,18 @@ open = [
 
 [mgr]
 linemode = "size_and_mtime"
-show_hidden = true
+show_hidden = false
 mouse_events = ["click", "scroll", "touch", "move",]
 
 [preview]
 image_filter = "lanczos3"
 max_cache = "100M"
 
-tab_size = 2
-max_width = 1000
-max_height = 1000
+[tasks]
+micro_workers    = 10
+macro_workers    = 10
+bizarre_retry    = 3
+image_alloc      = 536870912  # 512MB
+image_bound      = [ 10000, 10000 ]
+suppress_preload = false
+
